@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const isGithubPages = process.env.GITHUB_ACTIONS === 'true';
+
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
@@ -11,7 +13,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Remove basePath and assetPrefix for now to avoid issues
-}
+  basePath: isGithubPages ? '/malikShahzaib.github.io' : '',
+  assetPrefix: isGithubPages ? '/malikShahzaib.github.io/' : '',
+};
 
-export default nextConfig
+export default nextConfig;
