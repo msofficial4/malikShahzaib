@@ -3,6 +3,8 @@ const isGithubPages = process.env.GITHUB_ACTIONS === 'true';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: isGithubPages ? '/malikShahzaib' : '',
+  assetPrefix: isGithubPages ? '/malikShahzaib/' : '',
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
@@ -13,8 +15,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isGithubPages ? '/malikShahzaib' : '',
-  assetPrefix: isGithubPages ? '/malikShahzaib/' : '',
 };
 
 export default nextConfig;
