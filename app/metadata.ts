@@ -1,0 +1,27 @@
+export const siteConfig = {
+  name: "Malik Shahzaib - PHP, WordPress & Laravel Developer",
+  description:
+    "Experienced PHP, WordPress & Laravel Developer with 4+ years of expertise in web development, e-commerce solutions, and custom integrations. Specializing in Laravel, WordPress, WooCommerce, and modern web technologies.",
+  url: "https://malikshahzaib.dev",
+  ogImage: "https://malikshahzaib.dev/og-image.jpg",
+  keywords: [
+    "PHP Developer",
+    "Laravel Developer",
+    "WordPress Developer",
+    "WooCommerce Developer",
+    "Full Stack Developer",
+    "Web Developer",
+    "Malik Shahzaib",
+    "Pakistan Developer",
+    "Lahore Developer",
+    "Custom WordPress Themes",
+    "Laravel Applications",
+    "E-commerce Development",
+    "API Integration",
+    "MySQL Database",
+    "JavaScript",
+    "HTML/CSS",
+    "Responsive Design",
+    "Web Performance Optimization",
+  ],
+}
