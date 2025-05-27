@@ -13,8 +13,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isGithubPages ? '/malikShahzaib.github.io' : '',
-  assetPrefix: isGithubPages ? '/malikShahzaib.github.io/' : '',
+  basePath: isGithubPages ? '/malikShahzaib' : '',
+  assetPrefix: isGithubPages ? '/malikShahzaib/' : '',
 };
 
 export default nextConfig;
